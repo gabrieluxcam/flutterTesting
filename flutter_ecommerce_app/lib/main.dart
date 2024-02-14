@@ -7,7 +7,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'src/themes/theme.dart';
 
-// import 'package:flutter_uxcam/flutter_uxcam.dart';
+import 'package:flutter_uxcam/flutter_uxcam.dart';
 
 void main() => runApp(MyApp(
       title: 'ecommerce',
@@ -22,10 +22,10 @@ final String title;
 
   @override
   Widget build(BuildContext context) {
-    // FlutterUxcam.optIntoSchematicRecordings();
-    // FlutterUxConfig config = FlutterUxConfig(
-    //     userAppKey: "djazkur7hg5icjx", enableAutomaticScreenNameTagging: false);
-    // FlutterUxcam.startWithConfiguration(config);
+    FlutterUxcam.optIntoSchematicRecordings();
+    FlutterUxConfig config = FlutterUxConfig(
+        userAppKey: "djazkur7hg5icjx", enableAutomaticScreenNameTagging: false);
+    FlutterUxcam.startWithConfiguration(config);
     return MaterialApp(
       title: 'flutter_ecommerce_app',
       theme: AppTheme.lightTheme.copyWith(
