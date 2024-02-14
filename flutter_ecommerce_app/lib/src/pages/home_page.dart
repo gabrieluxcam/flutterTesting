@@ -8,7 +8,7 @@ import 'package:flutter_ecommerce_app/src/widgets/product_icon.dart';
 import 'package:flutter_ecommerce_app/src/widgets/extentions.dart';
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 

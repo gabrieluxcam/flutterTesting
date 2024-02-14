@@ -3,5 +3,9 @@ class Category{
   String name ;
   String image ;
   bool isSelected ;
-  Category({this.id,this.name,this.isSelected = false,this.image});
+  Category(
+      {required this.id,
+      required this.name,
+      this.isSelected = false,
+      required this.image});
 }

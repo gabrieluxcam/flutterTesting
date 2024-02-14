@@ -6,5 +6,12 @@ class Product{
   double price ;
   bool isliked ;
   bool isSelected ;
-  Product({this.id,this.name, this.category, this.price, this.isliked,this.isSelected = false,this.image});
+  Product(
+      {required this.id,
+      required this.name,
+      required this.category,
+      required this.price,
+      required this.isliked,
+      this.isSelected = false,
+      required this.image});
 }

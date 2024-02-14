@@ -1,4 +1,4 @@
-package com.thealphamerc.flutter_ecommerce_app
+package flutter_ecommerce_app
 
 import io.flutter.embedding.android.FlutterActivity
 
